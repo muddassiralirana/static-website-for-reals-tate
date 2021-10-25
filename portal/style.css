@@ -1,0 +1,152 @@
+body {
+    margin: 0;
+    padding: 0;
+    color: #2a2a2a;
+}
+
+body .center-container {
+    margin: auto;
+    width: 50%;
+}
+
+body header {
+    margin-bottom: 50px;
+}
+
+body hr {
+    margin-bottom: 30px;
+}
+
+body h2 {
+    margin-top: 50px;
+}
+
+body h4 {
+    margin-top: 50px;
+    color: #0f4f0f;
+}
+
+p {
+    color: #2a2a2a;
+}
+
+.bg-gray {
+    background-color: #f2f3f8;
+}
+
+body .navbar-dark .navbar-nav .nav-link {
+    color: #0f4f0f;
+}
+
+body .navbar-dark .navbar-nav .nav-link:hover {
+    color: #2a2a2a;
+}
+
+body .navbar-dark .navbar-nav .nav-link .user-info {
+    text-transform: capitalize;
+}
+
+@media screen and (min-width: 575px) {
+    body nav .navbar-nav .nav-item {
+        border-right: 1px solid #0f4f0f;
+        border-bottom: none;
+    }
+}
+
+body .navbar-nav .nav-item {
+    border-bottom: 1px solid #0f4f0f;
+}
+
+body nav .navbar-nav .nav-item:last-child {
+    border: none;
+}
+
+.top-logo {
+    margin: 20px auto;
+}
+
+.top-logo img {
+    width: 300px;
+}
+
+body .btn-primary,
+body a.btn-primary {
+    color: #fff;
+    background-color: #2a2a2a;
+    border-color: #2a2a2a;
+    width: 200px;
+}
+
+body .btn-primary:hover,
+body a.btn-primary:hover {
+    color: #fff;
+    background-color: #0f4f0f;
+    border-color: #0f4f0f;
+}
+
+body .add-more-servie {
+    margin-bottom: 20px;
+}
+
+body .btn-link.add-more {
+    color: #fff;
+    background-color: #0f4f0f;
+    padding: 5px 12px
+}
+
+body .btn-link.add-more:hover {
+    color: #fff;
+    background-color: #2a2a2a;
+    padding: 5px 12px
+}
+
+body .form-bottom-button {
+    margin: 40px 0;
+}
+
+body .remove-row {
+    color: red;
+    cursor: pointer;
+}
+
+body .content-detail>.row {
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    padding: 20px 0;
+}
+
+body .content-detail>.row:first-child {
+    border-top: none;
+}
+
+.form-content {
+    margin: 20px auto;
+    padding: 20px;
+    width: 35%;
+}
+
+.portal-form>div {
+    margin-bottom: 10px;
+}
+
+.portal-form input {
+    width: 100%;
+}
+
+.portal-form label {
+    width: 100%;
+}
+
+.portal-form .button.button-darker {
+    color: #fff;
+    background-color: #2a2a2a;
+    border-color: #2a2a2a;
+    padding: 10px 40px;
+    border-radius: 4px;
+}
+
+.portal-form input[type="submit"]:hover {
+    color: #fff;
+    background-color: #0f4f0f;
+    border-color: #0f4f0f;
+    text-decoration: none;
+}
